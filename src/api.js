@@ -1,4 +1,4 @@
-const API_BASE = 'https://backend-modul-8-dbs-production.up.railway.app';
+const API_BASE = 'https://cs10-dbs-backend-production.up.railway.app';
 
 async function request(method, path, body = null, auth = false) {
     const headers = { 'Content-Type': 'application/json' };
